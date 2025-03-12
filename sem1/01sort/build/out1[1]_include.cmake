@@ -1,0 +1,5 @@
+if(EXISTS "/home/daniel/code/vk/sem1/01sort/build/out1[1]_tests.cmake")
+  include("/home/daniel/code/vk/sem1/01sort/build/out1[1]_tests.cmake")
+else()
+  add_test(out1_NOT_BUILT out1_NOT_BUILT)
+endif()

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/out1.dir/home/daniel/code/vk/sem1/evenforward/evenforward1.cc.o CMakeFiles/out1.dir/home/daniel/code/vk/sem1/evenforward/tests.cc.o -o out1  lib/libgtest_main.a lib/libgtest.a 

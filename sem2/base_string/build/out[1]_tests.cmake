@@ -1,0 +1,5 @@
+add_test( solution.trueone /home/daniel/code/vk/sem2/base_string/build/out [==[--gtest_filter=solution.trueone]==] --gtest_also_run_disabled_tests)
+set_tests_properties( solution.trueone PROPERTIES WORKING_DIRECTORY /home/daniel/code/vk/sem2/base_string/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( solution.falseone /home/daniel/code/vk/sem2/base_string/build/out [==[--gtest_filter=solution.falseone]==] --gtest_also_run_disabled_tests)
+set_tests_properties( solution.falseone PROPERTIES WORKING_DIRECTORY /home/daniel/code/vk/sem2/base_string/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set( out_TESTS solution.trueone solution.falseone)

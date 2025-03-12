@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/out2.dir/home/daniel/code/vk/sem1/01sort/01sort_2.cc.o CMakeFiles/out2.dir/home/daniel/code/vk/sem1/01sort/tests.cc.o -o out2  lib/libgtest_main.a lib/libgtest.a 

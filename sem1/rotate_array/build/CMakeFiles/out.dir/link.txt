@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/out.dir/home/daniel/code/vk/sem1/rotate_array/rotate_array.cc.o CMakeFiles/out.dir/home/daniel/code/vk/sem1/rotate_array/tests.cc.o -o out  lib/libgtest_main.a lib/libgtest.a 

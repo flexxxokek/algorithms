@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/out.dir/home/daniel/code/vk/sem2/palindrom/palindrom.cc.o CMakeFiles/out.dir/home/daniel/code/vk/sem2/palindrom/tests.cc.o -o out  lib/libgtest_main.a lib/libgtest.a 

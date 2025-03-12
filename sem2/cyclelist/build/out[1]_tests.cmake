@@ -1,0 +1,5 @@
+add_test( solution.cycled /home/daniel/code/vk/sem2/cyclelist/build/out [==[--gtest_filter=solution.cycled]==] --gtest_also_run_disabled_tests)
+set_tests_properties( solution.cycled PROPERTIES WORKING_DIRECTORY /home/daniel/code/vk/sem2/cyclelist/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( solution.not_cycled /home/daniel/code/vk/sem2/cyclelist/build/out [==[--gtest_filter=solution.not_cycled]==] --gtest_also_run_disabled_tests)
+set_tests_properties( solution.not_cycled PROPERTIES WORKING_DIRECTORY /home/daniel/code/vk/sem2/cyclelist/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set( out_TESTS solution.cycled solution.not_cycled)
