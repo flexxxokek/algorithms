@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/daniel/code/vk/sem2/merge_ll/build/_deps/googletest-src/googlemock/src/gmock-all.cc" "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o" "gcc" "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o.d"
+  "/home/daniel/code/vk/algorithms/sem2/merge_ll/build/_deps/googletest-src/googlemock/src/gmock-all.cc" "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o" "gcc" "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/daniel/code/vk/sem2/merge_ll/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/daniel/code/vk/algorithms/sem2/merge_ll/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

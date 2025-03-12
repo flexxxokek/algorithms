@@ -1,7 +1,7 @@
 # Make file names absolute:
 #
-get_filename_component(filename "/home/daniel/code/vk/sem2/merge_ll/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip" ABSOLUTE)
-get_filename_component(directory "/home/daniel/code/vk/sem2/merge_ll/build/_deps/googletest-src" ABSOLUTE)
+get_filename_component(filename "/home/daniel/code/vk/algorithms/sem2/merge_ll/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip" ABSOLUTE)
+get_filename_component(directory "/home/daniel/code/vk/algorithms/sem2/merge_ll/build/_deps/googletest-src" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

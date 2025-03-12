@@ -1,5 +1,5 @@
-CMakeFiles/out.dir/home/daniel/code/vk/sem2/merge_ll/merge_ll.cc.o: \
- /home/daniel/code/vk/sem2/merge_ll/merge_ll.cc \
+CMakeFiles/out.dir/home/daniel/code/vk/algorithms/sem1/two_sum/two_sum.cc.o: \
+ /home/daniel/code/vk/algorithms/sem1/two_sum/two_sum.cc \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -143,5 +143,8 @@ CMakeFiles/out.dir/home/daniel/code/vk/sem2/merge_ll/merge_ll.cc.o: \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc \
- /home/daniel/code/vk/sem2/merge_ll/list.hh
+ /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/vector \
+ /usr/include/c++/11/bits/stl_uninitialized.h \
+ /usr/include/c++/11/bits/stl_vector.h \
+ /usr/include/c++/11/bits/stl_bvector.h \
+ /usr/include/c++/11/bits/vector.tcc

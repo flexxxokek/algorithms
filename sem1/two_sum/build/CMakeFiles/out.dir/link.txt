@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/out.dir/home/daniel/code/vk/sem1/two_sum/two_sum.cc.o CMakeFiles/out.dir/home/daniel/code/vk/sem1/two_sum/tests.cc.o -o out  lib/libgtest_main.a lib/libgtest.a 
+/usr/bin/c++ CMakeFiles/out.dir/home/daniel/code/vk/algorithms/sem1/two_sum/two_sum.cc.o CMakeFiles/out.dir/home/daniel/code/vk/algorithms/sem1/two_sum/tests.cc.o -o out  lib/libgtest_main.a lib/libgtest.a 

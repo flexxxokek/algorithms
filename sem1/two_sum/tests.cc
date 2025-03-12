@@ -30,9 +30,14 @@ TEST(solution, 2)
 
     EXPECT_EQ(test.first, 2) << "left number is wrong";
     EXPECT_EQ(test.second, 3) << "right number is wrong";
+}
 
-    test = solution(data, 200);
+TEST(solution, 3)
+{
+    std::vector<int> data = {0, 1};
 
-    EXPECT_EQ(test.first, 2) << "left number is wrong";
-    EXPECT_EQ(test.second, 2) << "right number is wrong";
+    auto test = solution(data, 2);
+    
+    EXPECT_EQ(test.first, -1) << "left number is wrong";
+    EXPECT_EQ(test.second, -1) << "right number is wrong";
 }

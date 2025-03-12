@@ -45,9 +45,17 @@ TEST(solution, 1)
     auto ans = {0, 0, 1, 2, 2, 3, 4, 6, 7, 8};
 
     //auto ans = {0, 1, 2, 3, 8};
+    //auto ans = {0, 2, 4, 6, 7};
 
     auto i1 = dst.begin;
     auto i2 = ans.begin();
+
+    for(auto i = dst.begin; i != nullptr; i = i->next)
+    {
+        std::cout << i->val << " ";
+    }
+
+    std::cout << "\n";
 
     while(i1 != nullptr && i2 != ans.end())
     {
@@ -55,5 +63,4 @@ TEST(solution, 1)
         i1 = i1->next;
         i2++;
     }
-
 }

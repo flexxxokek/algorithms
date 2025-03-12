@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daniel/code/vk/sem1/two_sum/build
+CMAKE_SOURCE_DIR = /home/daniel/code/vk/algorithms/sem1/two_sum/build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daniel/code/vk/sem1/two_sum/build
+CMAKE_BINARY_DIR = /home/daniel/code/vk/algorithms/sem1/two_sum/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/code/vk/sem1/two_sum/build/CMakeFiles /home/daniel/code/vk/sem1/two_sum/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/code/vk/algorithms/sem1/two_sum/build/CMakeFiles /home/daniel/code/vk/algorithms/sem1/two_sum/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/code/vk/sem1/two_sum/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/code/vk/algorithms/sem1/two_sum/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -236,53 +236,53 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-home/daniel/code/vk/sem1/two_sum/tests.o: home/daniel/code/vk/sem1/two_sum/tests.cc.o
-.PHONY : home/daniel/code/vk/sem1/two_sum/tests.o
+home/daniel/code/vk/algorithms/sem1/two_sum/tests.o: home/daniel/code/vk/algorithms/sem1/two_sum/tests.cc.o
+.PHONY : home/daniel/code/vk/algorithms/sem1/two_sum/tests.o
 
 # target to build an object file
-home/daniel/code/vk/sem1/two_sum/tests.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/daniel/code/vk/sem1/two_sum/tests.cc.o
-.PHONY : home/daniel/code/vk/sem1/two_sum/tests.cc.o
+home/daniel/code/vk/algorithms/sem1/two_sum/tests.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/daniel/code/vk/algorithms/sem1/two_sum/tests.cc.o
+.PHONY : home/daniel/code/vk/algorithms/sem1/two_sum/tests.cc.o
 
-home/daniel/code/vk/sem1/two_sum/tests.i: home/daniel/code/vk/sem1/two_sum/tests.cc.i
-.PHONY : home/daniel/code/vk/sem1/two_sum/tests.i
+home/daniel/code/vk/algorithms/sem1/two_sum/tests.i: home/daniel/code/vk/algorithms/sem1/two_sum/tests.cc.i
+.PHONY : home/daniel/code/vk/algorithms/sem1/two_sum/tests.i
 
 # target to preprocess a source file
-home/daniel/code/vk/sem1/two_sum/tests.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/daniel/code/vk/sem1/two_sum/tests.cc.i
-.PHONY : home/daniel/code/vk/sem1/two_sum/tests.cc.i
+home/daniel/code/vk/algorithms/sem1/two_sum/tests.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/daniel/code/vk/algorithms/sem1/two_sum/tests.cc.i
+.PHONY : home/daniel/code/vk/algorithms/sem1/two_sum/tests.cc.i
 
-home/daniel/code/vk/sem1/two_sum/tests.s: home/daniel/code/vk/sem1/two_sum/tests.cc.s
-.PHONY : home/daniel/code/vk/sem1/two_sum/tests.s
+home/daniel/code/vk/algorithms/sem1/two_sum/tests.s: home/daniel/code/vk/algorithms/sem1/two_sum/tests.cc.s
+.PHONY : home/daniel/code/vk/algorithms/sem1/two_sum/tests.s
 
 # target to generate assembly for a file
-home/daniel/code/vk/sem1/two_sum/tests.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/daniel/code/vk/sem1/two_sum/tests.cc.s
-.PHONY : home/daniel/code/vk/sem1/two_sum/tests.cc.s
+home/daniel/code/vk/algorithms/sem1/two_sum/tests.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/daniel/code/vk/algorithms/sem1/two_sum/tests.cc.s
+.PHONY : home/daniel/code/vk/algorithms/sem1/two_sum/tests.cc.s
 
-home/daniel/code/vk/sem1/two_sum/two_sum.o: home/daniel/code/vk/sem1/two_sum/two_sum.cc.o
-.PHONY : home/daniel/code/vk/sem1/two_sum/two_sum.o
+home/daniel/code/vk/algorithms/sem1/two_sum/two_sum.o: home/daniel/code/vk/algorithms/sem1/two_sum/two_sum.cc.o
+.PHONY : home/daniel/code/vk/algorithms/sem1/two_sum/two_sum.o
 
 # target to build an object file
-home/daniel/code/vk/sem1/two_sum/two_sum.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/daniel/code/vk/sem1/two_sum/two_sum.cc.o
-.PHONY : home/daniel/code/vk/sem1/two_sum/two_sum.cc.o
+home/daniel/code/vk/algorithms/sem1/two_sum/two_sum.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/daniel/code/vk/algorithms/sem1/two_sum/two_sum.cc.o
+.PHONY : home/daniel/code/vk/algorithms/sem1/two_sum/two_sum.cc.o
 
-home/daniel/code/vk/sem1/two_sum/two_sum.i: home/daniel/code/vk/sem1/two_sum/two_sum.cc.i
-.PHONY : home/daniel/code/vk/sem1/two_sum/two_sum.i
+home/daniel/code/vk/algorithms/sem1/two_sum/two_sum.i: home/daniel/code/vk/algorithms/sem1/two_sum/two_sum.cc.i
+.PHONY : home/daniel/code/vk/algorithms/sem1/two_sum/two_sum.i
 
 # target to preprocess a source file
-home/daniel/code/vk/sem1/two_sum/two_sum.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/daniel/code/vk/sem1/two_sum/two_sum.cc.i
-.PHONY : home/daniel/code/vk/sem1/two_sum/two_sum.cc.i
+home/daniel/code/vk/algorithms/sem1/two_sum/two_sum.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/daniel/code/vk/algorithms/sem1/two_sum/two_sum.cc.i
+.PHONY : home/daniel/code/vk/algorithms/sem1/two_sum/two_sum.cc.i
 
-home/daniel/code/vk/sem1/two_sum/two_sum.s: home/daniel/code/vk/sem1/two_sum/two_sum.cc.s
-.PHONY : home/daniel/code/vk/sem1/two_sum/two_sum.s
+home/daniel/code/vk/algorithms/sem1/two_sum/two_sum.s: home/daniel/code/vk/algorithms/sem1/two_sum/two_sum.cc.s
+.PHONY : home/daniel/code/vk/algorithms/sem1/two_sum/two_sum.s
 
 # target to generate assembly for a file
-home/daniel/code/vk/sem1/two_sum/two_sum.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/daniel/code/vk/sem1/two_sum/two_sum.cc.s
-.PHONY : home/daniel/code/vk/sem1/two_sum/two_sum.cc.s
+home/daniel/code/vk/algorithms/sem1/two_sum/two_sum.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/daniel/code/vk/algorithms/sem1/two_sum/two_sum.cc.s
+.PHONY : home/daniel/code/vk/algorithms/sem1/two_sum/two_sum.cc.s
 
 # Help Target
 help:
@@ -302,12 +302,12 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... out"
-	@echo "... home/daniel/code/vk/sem1/two_sum/tests.o"
-	@echo "... home/daniel/code/vk/sem1/two_sum/tests.i"
-	@echo "... home/daniel/code/vk/sem1/two_sum/tests.s"
-	@echo "... home/daniel/code/vk/sem1/two_sum/two_sum.o"
-	@echo "... home/daniel/code/vk/sem1/two_sum/two_sum.i"
-	@echo "... home/daniel/code/vk/sem1/two_sum/two_sum.s"
+	@echo "... home/daniel/code/vk/algorithms/sem1/two_sum/tests.o"
+	@echo "... home/daniel/code/vk/algorithms/sem1/two_sum/tests.i"
+	@echo "... home/daniel/code/vk/algorithms/sem1/two_sum/tests.s"
+	@echo "... home/daniel/code/vk/algorithms/sem1/two_sum/two_sum.o"
+	@echo "... home/daniel/code/vk/algorithms/sem1/two_sum/two_sum.i"
+	@echo "... home/daniel/code/vk/algorithms/sem1/two_sum/two_sum.s"
 .PHONY : help
 
 

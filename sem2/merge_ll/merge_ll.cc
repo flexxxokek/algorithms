@@ -6,7 +6,7 @@ void solution(List& src, List& dst)
 {
     Node nd;
     Node* dummy = &nd;
-    dummy->next = src.begin;
+    dummy->next = dst.begin;
 
     auto prev = dummy;
     auto cur = dst.begin;
@@ -18,25 +18,20 @@ void solution(List& src, List& dst)
         if(cur == nullptr)
         {
             prev->next = i;
-            prev = i;
-            i = i->next;
-            std::cout << (int) (i->next == i);
         }
         else if(i->val < cur->val)
         {
-            prev->next = i;
             auto tmp = i->next;
+            prev->next = i;
             i->next = cur;
+            prev = i;
             i = tmp;
         }
-        else
+        else    
         {
             cur = cur->next;
             prev = prev->next;
         }
-
-        std::cout << i->val;
-
     }
 
     dst.begin = dummy->next;

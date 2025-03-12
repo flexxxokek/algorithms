@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daniel/code/vk/sem2/merge_ll/build
+CMAKE_SOURCE_DIR = /home/daniel/code/vk/algorithms/sem2/merge_ll/build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daniel/code/vk/sem2/merge_ll/build
+CMAKE_BINARY_DIR = /home/daniel/code/vk/algorithms/sem2/merge_ll/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/code/vk/sem2/merge_ll/build/CMakeFiles /home/daniel/code/vk/sem2/merge_ll/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/code/vk/algorithms/sem2/merge_ll/build/CMakeFiles /home/daniel/code/vk/algorithms/sem2/merge_ll/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/code/vk/sem2/merge_ll/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/code/vk/algorithms/sem2/merge_ll/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -236,53 +236,53 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-home/daniel/code/vk/sem2/merge_ll/merge_ll.o: home/daniel/code/vk/sem2/merge_ll/merge_ll.cc.o
-.PHONY : home/daniel/code/vk/sem2/merge_ll/merge_ll.o
+home/daniel/code/vk/algorithms/sem2/merge_ll/merge_ll.o: home/daniel/code/vk/algorithms/sem2/merge_ll/merge_ll.cc.o
+.PHONY : home/daniel/code/vk/algorithms/sem2/merge_ll/merge_ll.o
 
 # target to build an object file
-home/daniel/code/vk/sem2/merge_ll/merge_ll.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/daniel/code/vk/sem2/merge_ll/merge_ll.cc.o
-.PHONY : home/daniel/code/vk/sem2/merge_ll/merge_ll.cc.o
+home/daniel/code/vk/algorithms/sem2/merge_ll/merge_ll.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/daniel/code/vk/algorithms/sem2/merge_ll/merge_ll.cc.o
+.PHONY : home/daniel/code/vk/algorithms/sem2/merge_ll/merge_ll.cc.o
 
-home/daniel/code/vk/sem2/merge_ll/merge_ll.i: home/daniel/code/vk/sem2/merge_ll/merge_ll.cc.i
-.PHONY : home/daniel/code/vk/sem2/merge_ll/merge_ll.i
+home/daniel/code/vk/algorithms/sem2/merge_ll/merge_ll.i: home/daniel/code/vk/algorithms/sem2/merge_ll/merge_ll.cc.i
+.PHONY : home/daniel/code/vk/algorithms/sem2/merge_ll/merge_ll.i
 
 # target to preprocess a source file
-home/daniel/code/vk/sem2/merge_ll/merge_ll.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/daniel/code/vk/sem2/merge_ll/merge_ll.cc.i
-.PHONY : home/daniel/code/vk/sem2/merge_ll/merge_ll.cc.i
+home/daniel/code/vk/algorithms/sem2/merge_ll/merge_ll.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/daniel/code/vk/algorithms/sem2/merge_ll/merge_ll.cc.i
+.PHONY : home/daniel/code/vk/algorithms/sem2/merge_ll/merge_ll.cc.i
 
-home/daniel/code/vk/sem2/merge_ll/merge_ll.s: home/daniel/code/vk/sem2/merge_ll/merge_ll.cc.s
-.PHONY : home/daniel/code/vk/sem2/merge_ll/merge_ll.s
+home/daniel/code/vk/algorithms/sem2/merge_ll/merge_ll.s: home/daniel/code/vk/algorithms/sem2/merge_ll/merge_ll.cc.s
+.PHONY : home/daniel/code/vk/algorithms/sem2/merge_ll/merge_ll.s
 
 # target to generate assembly for a file
-home/daniel/code/vk/sem2/merge_ll/merge_ll.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/daniel/code/vk/sem2/merge_ll/merge_ll.cc.s
-.PHONY : home/daniel/code/vk/sem2/merge_ll/merge_ll.cc.s
+home/daniel/code/vk/algorithms/sem2/merge_ll/merge_ll.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/daniel/code/vk/algorithms/sem2/merge_ll/merge_ll.cc.s
+.PHONY : home/daniel/code/vk/algorithms/sem2/merge_ll/merge_ll.cc.s
 
-home/daniel/code/vk/sem2/merge_ll/tests.o: home/daniel/code/vk/sem2/merge_ll/tests.cc.o
-.PHONY : home/daniel/code/vk/sem2/merge_ll/tests.o
+home/daniel/code/vk/algorithms/sem2/merge_ll/tests.o: home/daniel/code/vk/algorithms/sem2/merge_ll/tests.cc.o
+.PHONY : home/daniel/code/vk/algorithms/sem2/merge_ll/tests.o
 
 # target to build an object file
-home/daniel/code/vk/sem2/merge_ll/tests.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/daniel/code/vk/sem2/merge_ll/tests.cc.o
-.PHONY : home/daniel/code/vk/sem2/merge_ll/tests.cc.o
+home/daniel/code/vk/algorithms/sem2/merge_ll/tests.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/daniel/code/vk/algorithms/sem2/merge_ll/tests.cc.o
+.PHONY : home/daniel/code/vk/algorithms/sem2/merge_ll/tests.cc.o
 
-home/daniel/code/vk/sem2/merge_ll/tests.i: home/daniel/code/vk/sem2/merge_ll/tests.cc.i
-.PHONY : home/daniel/code/vk/sem2/merge_ll/tests.i
+home/daniel/code/vk/algorithms/sem2/merge_ll/tests.i: home/daniel/code/vk/algorithms/sem2/merge_ll/tests.cc.i
+.PHONY : home/daniel/code/vk/algorithms/sem2/merge_ll/tests.i
 
 # target to preprocess a source file
-home/daniel/code/vk/sem2/merge_ll/tests.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/daniel/code/vk/sem2/merge_ll/tests.cc.i
-.PHONY : home/daniel/code/vk/sem2/merge_ll/tests.cc.i
+home/daniel/code/vk/algorithms/sem2/merge_ll/tests.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/daniel/code/vk/algorithms/sem2/merge_ll/tests.cc.i
+.PHONY : home/daniel/code/vk/algorithms/sem2/merge_ll/tests.cc.i
 
-home/daniel/code/vk/sem2/merge_ll/tests.s: home/daniel/code/vk/sem2/merge_ll/tests.cc.s
-.PHONY : home/daniel/code/vk/sem2/merge_ll/tests.s
+home/daniel/code/vk/algorithms/sem2/merge_ll/tests.s: home/daniel/code/vk/algorithms/sem2/merge_ll/tests.cc.s
+.PHONY : home/daniel/code/vk/algorithms/sem2/merge_ll/tests.s
 
 # target to generate assembly for a file
-home/daniel/code/vk/sem2/merge_ll/tests.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/daniel/code/vk/sem2/merge_ll/tests.cc.s
-.PHONY : home/daniel/code/vk/sem2/merge_ll/tests.cc.s
+home/daniel/code/vk/algorithms/sem2/merge_ll/tests.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/daniel/code/vk/algorithms/sem2/merge_ll/tests.cc.s
+.PHONY : home/daniel/code/vk/algorithms/sem2/merge_ll/tests.cc.s
 
 # Help Target
 help:
@@ -302,12 +302,12 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... out"
-	@echo "... home/daniel/code/vk/sem2/merge_ll/merge_ll.o"
-	@echo "... home/daniel/code/vk/sem2/merge_ll/merge_ll.i"
-	@echo "... home/daniel/code/vk/sem2/merge_ll/merge_ll.s"
-	@echo "... home/daniel/code/vk/sem2/merge_ll/tests.o"
-	@echo "... home/daniel/code/vk/sem2/merge_ll/tests.i"
-	@echo "... home/daniel/code/vk/sem2/merge_ll/tests.s"
+	@echo "... home/daniel/code/vk/algorithms/sem2/merge_ll/merge_ll.o"
+	@echo "... home/daniel/code/vk/algorithms/sem2/merge_ll/merge_ll.i"
+	@echo "... home/daniel/code/vk/algorithms/sem2/merge_ll/merge_ll.s"
+	@echo "... home/daniel/code/vk/algorithms/sem2/merge_ll/tests.o"
+	@echo "... home/daniel/code/vk/algorithms/sem2/merge_ll/tests.i"
+	@echo "... home/daniel/code/vk/algorithms/sem2/merge_ll/tests.s"
 .PHONY : help
 
 
